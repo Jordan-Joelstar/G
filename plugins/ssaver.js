@@ -118,7 +118,6 @@ smd({ on: "status" }, async (message, text) => {
 smd(
   {
     cmdname: "asta",
-    alias: ["intro", "developer", "dev"],
     desc: "Developer details",
     
   },
