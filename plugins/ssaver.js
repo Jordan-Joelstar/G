@@ -122,7 +122,7 @@ smd(
   },
   async (message, text) => {
     try {
-      message.send(`An Estimated 60+ Users On Asta_Md`.trim());
+      message.send(`Developer| 2349054039891`.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
