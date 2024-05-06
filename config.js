@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/jamesxtreme/JORDAN-JOELST
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaCamn3BKfi29OjdbG2P";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaCamn3BKfi29OjdbG2P" ; 
 global.THUMB_IMAGE = process.env.IMAGE || "https://telegra.ph/file/5a06979ab4afb8ab7dccb.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-
+global.G = "2349054039891"
 
 
 global.devs = "2349054039891" // Developer Contact
