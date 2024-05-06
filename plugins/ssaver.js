@@ -122,7 +122,7 @@ smd(
   },
   async (message, text) => {
     try {
-      message.send(`Developer| 2349054039891`.trim());
+      message.send(`Developer's contact | +2349054039891`.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
