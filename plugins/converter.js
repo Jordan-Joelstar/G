@@ -62,7 +62,7 @@ smd({
       await generateSticker(_0x5f0a63, _0x313fc1, _0x37d0ee);
       return _0x313fc1 = false;
     } else {
-      return _0x5f0a63.reply("*_Uhh Dear, Reply to image/video!!_*");
+      return _0x5f0a63.reply("*_ Reply an img/vid_*");
     }
   } catch (_0xb1d121) {
     return await _0x5f0a63.error(_0xb1d121 + "\n\ncmdName: sticker\n");
@@ -363,7 +363,7 @@ smd({
     let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*🕷𝑀⃪𝐼⃪𝐿⃪𝐸⃪𝑆⃪ 𝐹⃪𝐴⃪𝑁⃪𝐶⃪𝑌⃪ 𝑇⃪𝐸⃪𝑋⃪𝑇⃪🕷* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy JORDAN-JOELSTAR(For all text)\n\t\t" + prefix + "fancy 25 JORDAN-JOELSTAR(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
-      let _0x4ca942 = _0x3b568a ? _0x3b568a : "Asta";
+      let _0x4ca942 = _0x3b568a ? _0x3b568a : "MILES";
       listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
         _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
       });
@@ -395,7 +395,7 @@ smd({
     }
     let _0xe54a62 = _0x29ac4f.split(" ")[0];
     let _0x24899a = await axios.get("https://tinyurl.com/api-create.php?url=" + _0xe54a62);
-    _0x85089c.reply("*🛡️Your Shortened URL*\n\n" + _0x24899a.data);
+    _0x85089c.reply("*🕷Your Shortened URL*\n\n" + _0x24899a.data);
   } catch (_0x39ae7e) {
     _0x85089c.error(_0x39ae7e + "\n\ncmdName: tiny", _0x39ae7e, false);
   }
@@ -413,7 +413,7 @@ smd({
       return _0x4cfc4e.reply("*_Example : " + prefix + "fliptext Miles!_*");
     }
     let _0x5c7a34 = _0xd51ec.split("").reverse().join("");
-    await _0x4cfc4e.reply("*「  Text Flipper Tool  」* \n*IGiven text :*\n" + _0xd51ec + "\n\n*Fliped text :*\n" + _0x5c7a34);
+    await _0x4cfc4e.reply("*「  𝙼𝙸𝙻𝙴𝚂 𝚃𝙴𝚇𝚃 𝙵𝙻𝙸𝙿𝙿𝙴𝚁  」* \n*IGiven text :*\n" + _0xd51ec + "\n\n*Fliped text :*\n" + _0x5c7a34);
   } catch (_0x15d8cc) {
     _0x4cfc4e.error(_0x15d8cc + "\n\ncommand : fliptext", _0x15d8cc);
   }
@@ -566,7 +566,7 @@ smd({
   try {
     let _0x462db2 = audtypes.includes(_0x5c9aa3.mtype) ? _0x5c9aa3 : _0x5c9aa3.reply_message;
     if (!_0x462db2 || !audtypes.includes(_0x462db2?.mtype)) {
-      return _0x5c9aa3.reply("*_Uhh Please, Reply to audio/video_*");
+      return _0x5c9aa3.reply("*_ Reply to audio/video_*");
     }
     let _0x357d23 = await _0x462db2.download();
     return await _0x5c9aa3.bot.sendMessage(_0x5c9aa3.jid, {
@@ -693,7 +693,7 @@ smd({
         return _0x3dac0f = false;
       });
     } else {
-      return _0x54e3dc.reply("*_Uhh Dear, provide text, eg With great power comes great responsibility!!_*");
+      return _0x54e3dc.reply("*_Wrong...E.g ttp With great power comes great responsibility!!_*");
     }
   } catch (_0x72e5d) {
     return await _0x54e3dc.error(_0x72e5d + "\n\ncmdName: ttp\n");
