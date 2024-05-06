@@ -14,9 +14,9 @@ async function randomeFunfacts(_0x1be35e) {
     } else if (_0x1be35e === "joke") {
       const _0x4fe671 = await (await fetch("https://official-joke-api.appspot.com/random_joke")).json();
       return "*Joke :* " + _0x4fe671.setup + "\n*Punchline:*  " + _0x4fe671.punchline;
-    } else if (_0x1be35e === "comedy") {
+    } else if (_0x1be35e === "joke2") {
       const _0x1cc76d = await (await fetch("https://v2.jokeapi.dev/joke/Any?type=single")).json();
-      return "*😂 :* " + _0x1cc76d.joke;
+      return "*😂:* " + _0x1cc76d.joke;
     } else if (_0x1be35e === "fact") {
       const {
         data: _0x202058
