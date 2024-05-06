@@ -118,12 +118,11 @@ smd({ on: "status" }, async (message, text) => {
 smd(
   {
     cmdname: "asta",
-    desc: "Developer details",
-    
+    desc: "total Users Currently using asta",
   },
   async (message, text) => {
     try {
-      message.send(`Spidey is here``.trim());
+      message.send(`An Estimated 60+ Users On Asta_Md`.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
