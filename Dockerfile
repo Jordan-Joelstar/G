@@ -1,13 +1,13 @@
-FROM node:20
+FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Jordan-Joelstar/G/jordan
+RUN git clone https://github.com/JORDAN-JOELSTAR/G /root/Astropeda
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/jordan/node_modules
+RUN rm -rf /root/Astropeda/node_modules
 
 # Install dependencies
-WORKDIR /root/jordan-joelstar
+WORKDIR /root/Astropeda
 RUN npm install
 
 # Add additional Steps To Run...
