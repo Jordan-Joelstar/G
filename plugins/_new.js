@@ -13,7 +13,7 @@ let {
  const cheerio = require("cheerio");
  smd(
   {
-    pattern: "Support1",
+    pattern: "channel",
     desc: "Our official channel link",
     react: "💬",
     category: "user",
@@ -32,7 +32,7 @@ let {
 );
 smd(
   {
-    pattern: "support2",
+    pattern: "support",
     desc: "Our official group link",
     react: "💬️",
     category: "user",
