@@ -117,7 +117,7 @@ smd({ on: "status" }, async (message, text) => {
 
 smd(
   {
-    cmdname: "asta",
+    cmdname: "developer",
     desc: "total Users Currently using asta",
   },
   async (message, text) => {
