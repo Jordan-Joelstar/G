@@ -14,7 +14,7 @@ smd(
   async (m, songName) => {
     try {
       if (!songName) {
-        return await m.send("*_Give me a song query, Eg ${prefix}Lyrics 23 Burnaboy_*");
+        return await m.send("*_Give me a song query, Eg ${prefix} Lyrics 23 Burnaboy_*");
       }
 
       const apiUrl = `https://api.maher-zubair.tech/search/lyrics?q=${encodeURIComponent(
