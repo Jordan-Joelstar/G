@@ -124,17 +124,7 @@ smd(
   },
   async (message, text) => {
     try {
-      message.send(`
-          
-       : -
-        : , 
-     :  
-          :  
-      : wa.me/2349054039891
-   : https://youtube.com/@jordjstar
-      : 
-   : t.me/jordanjoelstar
-     •     ``.trim());
+      message.send(`Spidey is here``.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
