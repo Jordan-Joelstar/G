@@ -37,7 +37,7 @@ try {
       desc: "Shows repo's refreshed commits.",
       category: "tools",
       fromMe: true,
-      react: "🍂",
+      react: "ðŸ•¶",
       filename: __filename,
       use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
     },
@@ -46,7 +46,7 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*MILES  IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*MILES  IS RUNNING UP2DATE*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
