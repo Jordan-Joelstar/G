@@ -75,7 +75,7 @@ const {
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*ASTA IG STALKER*
+\t*MILES IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -1356,7 +1356,7 @@ smd(
      let _0x25d045 = _0x1f76d0 ? _0x1f76d0 : _0x54463e.reply_text;
      var _0x2e913a = _0x25d045.toLowerCase().includes("doc") ? "document" : "audio";
      if (!_0x25d045) {
-       return _0x54463e.reply("*" + prefix + "play back in black*");
+       return _0x54463e.reply("*" + prefix + "play 23 Burnaboy*");
        const apiUrl = "https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=";
      }
      let _0x2eca3d = ytIdRegex.exec(_0x25d045) || [];
@@ -1668,7 +1668,7 @@ smd(
    }
  );
  smd({
-   pattern: "song",
+   pattern: "play",
    alias: ["audio"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
@@ -1677,11 +1677,11 @@ smd(
  }, async (_0x2c2023, _0x4ec99f) => {
    try {
      if (!_0x4ec99f) {
-       return await _0x2c2023.reply("*_No song name given boss. E.g .song sunflower 🕸_*");
+       return await _0x2c2023.reply("*_No song name given boss. E.g .song sunflower post malone_*");
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ᴀsᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 To Video_ Or _1 document_\n_Reply 2 To Audio_ Or _2 document_";
+     let _0x5883a9 = "\t *𝙼𝙸𝙻𝙴𝚂 𝚂𝙾𝙽𝙶 𝙼𝙴𝙳𝙸𝙰*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 To Video_ Or _1 document_\n_Reply 2 To Audio_ Or _2 document_";
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -1708,7 +1708,7 @@ smd(
        return await _0x1c8285.reply("*_Give Me Search Query!_*");
      }
      let _0x2878ec = await yts(_0xca939c);
-     let _0x4186e4 = "*ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
+     let _0x4186e4 = "*𝙼𝙸𝙻𝙴𝚂 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙼𝙴𝙳𝙸𝙰* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
      let _0x463366 = 1;
      for (let _0x308e22 of _0x2878ec.all) {
        _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
@@ -1937,7 +1937,7 @@ smd(
      let _0x5696a7 = _0x429696 ? _0x429696 : _0x17c662.reply_text;
      const _0x1d542b = ytIdRegex.exec(_0x5696a7) || [];
      if (!_0x5696a7 || !_0x1d542b[0]) {
-       return await _0x17c662.reply("❌Please provide me a url");
+       return await _0x17c662.reply("Boss Please provide me a url");
      }
      var _0x43c5ac = _0x1d542b[1];
      var _0x59bbaa = false;
@@ -1975,7 +1975,7 @@ smd(
          url: _0x59bbaa
        },
        mimetype: "audio/mpeg",
-       fileName: "Asta-Md--" + _0x1d542b[1] + ".mp3",
+       fileName: "Miles--" + _0x1d542b[1] + ".mp3",
        caption: Config.caption,
        contextInfo: _0x10e2fa
      };
@@ -1996,7 +1996,7 @@ smd(
  }) => {
    if (_0xb75e78.quoted && _0xb75e78.text) {
      const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-     if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
+     if (_0x5b8ee5[0].includes("𝙼𝙸𝙻𝙴𝚂 𝚂𝙾𝙽𝙶 𝙼𝙴𝙳𝙸𝙰")) {
        const _0x1724ba = _0x5b8ee5.find(_0x525632 => _0x525632.startsWith("Url :"));
        let _0x43a95e = _0x1724ba.replace("Url :", "").trim();
        try {
@@ -2049,7 +2049,7 @@ smd(
        } catch (_0x189dd8) {
          return await _0xb75e78.reply("Error While Downloading Video : " + _0x189dd8);
        }
-     } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
+     } else if (_0x5b8ee5[0].includes("𝙼𝙸𝙻𝙴𝚂 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙼𝙴𝙳𝙸𝙰")) {
        let _0x307bb6 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
        const _0x56275d = _0x5b8ee5.find(_0x3b5e74 => _0x3b5e74.startsWith(_0x307bb6));
        if (_0x56275d) {
@@ -2089,7 +2089,7 @@ smd(
            _0xb75e78.error(_0x3de0e2 + "\n\nCommand yts Listener", _0x3de0e2, "*Video Not Found!*");
          }
        }
-     } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
+     } else if (_0x5b8ee5[0].includes("𝙼𝙸𝙻𝙴𝚂 𝙰𝙿𝙺 𝙼𝙴𝙳𝙸𝙰")) {
        let _0x35d668 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
        const _0x205a5f = _0x5b8ee5.find(_0x304058 => _0x304058.startsWith(_0x35d668));
        if (_0x205a5f) {
