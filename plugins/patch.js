@@ -275,13 +275,13 @@ astro_patch.smd(
         Config.menu.trim().startsWith("2") ||
         Config.menu.toLowerCase().includes("menu2")
       ) {
-        menuThemeHeader = "╭═══ *" + Config.botname + "* ═══⊷\n┃❃╭──────────────";
-        menuThemeCommandPrefix = "┃❃│";
-        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════⊷";
+        menuThemeHeader = "╭═══ *" + Config.botname + "* ═══⊷\n┃🕷️╭──────────────";
+        menuThemeCommandPrefix = "┃🕷️│";
+        menuThemeFooter = "┃🕷️╰───────────────\n╰═════════════════⊷";
         menuThemeCategoryHeader = "╭─❏";
         menuThemeCategoryFooter = "❏";
-        menuThemeCommandPrefix = "┃❃│";
-        menuThemeCommandFooter = "┃❃╰───────────────\n╰═════════════════⊷";
+        menuThemeCommandPrefix = "┃🕷️│";
+        menuThemeCommandFooter = "┃🕷️╰───────────────\n╰═════════════════⊷";
       } else {
         menuThemeHeader = "╭〘  " + Config.botname + "  〙";
         menuThemeCommandPrefix = "│ │";
@@ -375,7 +375,7 @@ smd(
         _0x22514a.date +
         "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- Jordan-Joelstar\n➮Oᴡɴᴇʀ - " +
+        "\n\n➮Fᴏᴜɴᴅᴇʀ- 𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁\n➮Oᴡɴᴇʀ - " +
         Config.ownername +
         "\n➮Nᴜᴍ - " +
         owner.split(",")[0] +
@@ -383,9 +383,9 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *‍🤖 :*  𝙼𝙸𝙻𝙴𝚂 ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *‍🇳🇬 :*  𝙼𝙸𝙻𝙴𝚂 ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭──❰ *ALL MENU* ❱\n│🎧 Lɪꜱᴛ\n│🎧 Cᴀᴛᴇɢᴏʀʏ\n│🎧 Hᴇʟᴘ\n│🎧 Aʟɪᴠᴇ\n│🎧 Uᴘᴛɪᴍᴇ\n│🎧 Wᴇᴀᴛʜᴇʀ\n│🎧 Lɪɴᴋ\n│🎧 Cᴘᴜ\n│🎧 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
@@ -535,11 +535,11 @@ astro_patch.smd(
   },
   async (context) => {
     const startTime = new Date().getTime();
-    const { key: messageKey } = await context.reply("*hmm...*");
+    const { key: messageKey } = await context.reply("*swinging...*");
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*ʟᴀᴛᴇɴᴄʏ: ${pingTime} ᴍs*`,
+      `*Swing-Speed: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -689,7 +689,7 @@ astro_patch.cmd({
     pattern: "list",
     desc: "list menu",
     category: "general",
-    react: "🥀"
+    react: "🇳🇬"
   }, async _0x1d5ddc => {
     try {
       const {
