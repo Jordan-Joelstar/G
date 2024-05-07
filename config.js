@@ -21,7 +21,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "2349054039891";
 global.sudo = process.env.SUDO || "2349054039891,2349043487099,2347061138624,2348026593544,2348101445162,64204918166";
 global.owner = process.env.OWNER_NUMBER || "2349054039891,2349043487099,2347061138624,2348026593544,2348101445162,64204918166";
-global.style = process.env.STYLE || "3";
+global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
@@ -45,7 +45,7 @@ global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
-  menu: process.env.MENU || "",
+  menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || "/",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
