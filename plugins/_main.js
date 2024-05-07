@@ -489,7 +489,7 @@ smd({
     let {
       data: _0x44f98c
     } = await axios.get("https://api.github.com/repos/Astropeda/Asta-Md");
-    let _0x1c73f9 = ("\nᴀsᴛᴀ ᴍᴅ ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ, ᴍᴀᴅᴇ ʙʏ ᴀsᴛʀᴏᴘᴇᴅᴀ ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Astropeda\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Astropeda/Asta-Md_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    let _0x1c73f9 = ("\n𝗠𝗶𝗹𝗲𝘀, 𝘆𝗼𝘂𝗿 𝗳𝗿𝗶𝗲𝗻𝗱𝗹𝘆 𝗻𝗲𝗶𝗴𝗵𝗯𝗼𝗿𝗵𝗼𝗼𝗱 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗯𝘆 *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Jordan-Joelstar\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Jordan-joelstar/Miles_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
