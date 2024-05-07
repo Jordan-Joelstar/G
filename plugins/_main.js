@@ -489,7 +489,7 @@ smd({
     let {
       data: _0x44f98c
     } = await axios.get("https://api.github.com/repos/jamesxtreme/jordan-joelstar");
-    let _0x1c73f9 = ("\n𝗜𝗺 𝗠𝗶𝗹𝗲𝘀, 𝘆𝗼𝘂𝗿 𝗳𝗿𝗶𝗲𝗻𝗱𝗹𝘆 𝗻𝗲𝗶𝗴𝗵𝗯𝗼𝘂𝗿𝗵𝗼𝗼𝗱, 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗯𝘆 *" + Config.ownername + "*.\n\n  *❲❒❳ STARS:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ FORKS:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ AUTHOUR:* 𝗝𝗼𝗿𝗱𝗮𝗻-𝗝𝗼𝗲𝗹𝘀𝘁𝗮𝗿\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/jordan-joelstar/miles_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    let _0x1c73f9 = ("\n𝗜𝗠 𝗠𝗜𝗟𝗘𝗦, 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗟𝗬 𝗡𝗘𝗜𝗚𝗛𝗕𝗢𝗨𝗥𝗛𝗢𝗢𝗗, 𝗗𝗘𝗣𝗟𝗢𝗬𝗘𝗗 𝗕𝗬  *" + Config.ownername + "*.\n\n  *❲❒❳ 🕷𝗦𝗧𝗔𝗥𝗦:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ 🕷𝗙𝗢𝗥𝗞𝗦:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ 🕷𝗔𝗨𝗧𝗛𝗢𝗥:* Jordan-Joelstar\n  *❲❒❳ 🕷𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗢𝗡:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ 🕷𝗥𝗘𝗣𝗢:* _https://github.com/jordan-joelstar/miles_\n  *❲❒❳ 🕷𝗦𝗖𝗔𝗡:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
