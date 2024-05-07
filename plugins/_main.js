@@ -146,7 +146,7 @@ smd({
     try {
       let _0x557719 = _0x302ad5 ? _0x302ad5 : bot.reply_text;
       if (!_0x557719) {
-        return man.reply("No query. Give me one 👀");
+        return man.reply("No query. Give me one  boss ðŸ‘€");
       }
       const _0x50c8d3 = await fetch("https://aemt.me/openai?text=" + _0x557719);
       const _0x14c9d6 = await _0x50c8d3.json();
@@ -235,7 +235,7 @@ smd({
   try {
     let _0x2968fd = _0x3700d4 || _0x9bac01.reply_text;
     if (!_0x2968fd) {
-      return await _0x9bac01.reply("*No query, No imagination 🕷*");
+      return await _0x9bac01.reply("*No query, No imagination ðŸ•·*");
     }
     let _0x24d5e9 = false;
     try {
@@ -280,7 +280,7 @@ smd({
   try {
     let _0x5e79d4 = _0xe79cfd || _0x39716c.reply_text;
     if (!_0x5e79d4) {
-      return await _0x39716c.reply("*No query, No imagination 🕷*");
+      return await _0x39716c.reply("*No query, No imagination ðŸ•·*");
     }
     const _0x14515f = "https://gurugpt.cyclic.app/dalle?prompt=" + encodeURIComponent(_0x5e79d4 + " \nNOTE: Make sure it looks like imagination");
     let _0x5d0b6a = false;
@@ -480,7 +480,7 @@ async function getDateTime() {
 }
 smd({
   pattern: "repo",
-  alias: ["git", "sc"],
+  alias: ["git", "sc", "script"],
   desc: "Sends info about repo",
   category: "general",
   filename: __filename
@@ -488,8 +488,8 @@ smd({
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://api.github.com/repos/Jordan-joelstar/Miles");
-    let _0x1c73f9 = ("\n𝙸𝚖 𝙼𝚒𝚕𝚎𝚜, 𝚢𝚘𝚞𝚛 𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝙽𝚎𝚒𝚐𝚑𝚋𝚘𝚞𝚛𝚘𝚘𝚍, 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* 𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Jordan-Joelstar/Miles_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    } = await axios.get("https://api.github.com/repos/jordan-joelstar/miles");
+    let _0x1c73f9 = ("\n𝗜𝗺 𝗠𝗶𝗹𝗲𝘀, 𝘆𝗼𝘂𝗿 𝗳𝗿𝗶𝗲𝗻𝗱𝗹𝘆 𝗻𝗲𝗶𝗴𝗵𝗯𝗼𝘂𝗿𝗵𝗼𝗼𝗱, 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗯𝘆 *" + Config.ownername + "*.\n\n  *❲❒❳ STARS:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ FORKS:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ AUTHOUR:* 𝗝𝗼𝗿𝗱𝗮𝗻-𝗝𝗼𝗲𝗹𝘀𝘁𝗮𝗿\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/jordan-joelstar/miles_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
@@ -535,7 +535,7 @@ smd({
     latensie = speed() - timestampe;
     var _0x54755f = performance.now();
     var _0x366cd8 = performance.now();
-    respon = ("*❲❒❳ " + Config.botname + " Server Info ❲❒❳*\n\n  *❲❒❳ Runtime:* " + runtime(process.uptime()) + "\n  *❲❒❳ Speed:* " + latensie.toFixed(3) + "/" + (_0x366cd8 - _0x54755f).toFixed(3) + " ms\n  *❲❒❳ RAM:* " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n  *❲❒❳ Memory Usage:*\n      " + Object.keys(_0x78d515).map((_0x4a444a, _0xf623b7, _0x26f7ee) => _0x4a444a.padEnd(Math.max(..._0x26f7ee.map(_0x470f51 => _0x470f51.length)), " ") + ": " + formatp(_0x78d515[_0x4a444a])).join("\n      ") + "\n\n" + (_0x14b376[0] ? "  *❲❒❳ Total CPU Usage:*\n  *" + _0x14b376[0].model.trim() + " (" + _0x52bb92.speed + " MHZ)*\n      " + Object.keys(_0x52bb92.times).map(_0x1a945a => "-" + (_0x1a945a + "").padEnd(6) + ": " + (_0x52bb92.times[_0x1a945a] * 100 / _0x52bb92.total).toFixed(2) + "%").join("\n      ") + "\n\n  *❲❒❳ CPU Core Usage (" + _0x14b376.length + " Core CPU)*\n  " + _0x14b376.map((_0x1ada4d, _0x5999d4) => "*Core " + (_0x5999d4 + 1) + ": " + _0x1ada4d.model.trim() + " (" + _0x1ada4d.speed + " MHZ)*\n      " + Object.keys(_0x1ada4d.times).map(_0x2cc08d => "-" + (_0x2cc08d + "").padEnd(6) + ": " + (_0x1ada4d.times[_0x2cc08d] * 100 / _0x1ada4d.total).toFixed(2) + "%").join("\n      ")).join("\n\n") : "") + "\n").trim();
+    respon = ("*â²â’â³ " + Config.botname + " Server Info â²â’â³*\n\n  *â²â’â³ Runtime:* " + runtime(process.uptime()) + "\n  *â²â’â³ Speed:* " + latensie.toFixed(3) + "/" + (_0x366cd8 - _0x54755f).toFixed(3) + " ms\n  *â²â’â³ RAM:* " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n  *â²â’â³ Memory Usage:*\n      " + Object.keys(_0x78d515).map((_0x4a444a, _0xf623b7, _0x26f7ee) => _0x4a444a.padEnd(Math.max(..._0x26f7ee.map(_0x470f51 => _0x470f51.length)), " ") + ": " + formatp(_0x78d515[_0x4a444a])).join("\n      ") + "\n\n" + (_0x14b376[0] ? "  *â²â’â³ Total CPU Usage:*\n  *" + _0x14b376[0].model.trim() + " (" + _0x52bb92.speed + " MHZ)*\n      " + Object.keys(_0x52bb92.times).map(_0x1a945a => "-" + (_0x1a945a + "").padEnd(6) + ": " + (_0x52bb92.times[_0x1a945a] * 100 / _0x52bb92.total).toFixed(2) + "%").join("\n      ") + "\n\n  *â²â’â³ CPU Core Usage (" + _0x14b376.length + " Core CPU)*\n  " + _0x14b376.map((_0x1ada4d, _0x5999d4) => "*Core " + (_0x5999d4 + 1) + ": " + _0x1ada4d.model.trim() + " (" + _0x1ada4d.speed + " MHZ)*\n      " + Object.keys(_0x1ada4d.times).map(_0x2cc08d => "-" + (_0x2cc08d + "").padEnd(6) + ": " + (_0x1ada4d.times[_0x2cc08d] * 100 / _0x1ada4d.total).toFixed(2) + "%").join("\n      ")).join("\n\n") : "") + "\n").trim();
     return await _0x51c639.send(respon, {}, "", _0x51c639);
   } catch (_0x102a1d) {
     await _0x51c639.error(_0x102a1d + "\n\ncommand: cpu", _0x102a1d, "*_No response from Server side, Sorry!!_*");
@@ -655,7 +655,7 @@ smd({
       _0x3079e2.reciever = _0x48975a[0];
       _0x3079e2.msgStatus = true;
       _0x3079e2.senderMsg = _0x358984;
-      _0x5f656f = "*𝙼𝙸𝙻𝙴𝚂 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
+      _0x5f656f = "*ð™¼ð™¸ð™»ð™´ðš‚ â€¢ á´€É´É´á´É´Êá´á´á´œs á´sÉ¢*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
       isAnnonyMsgAlive = isAnnonyMsgAlive + "," + _0x3079e2.reciever;
       await _0x358984.bot.sendMessage(_0x3079e2.reciever, {
         text: _0x5f656f
@@ -677,7 +677,7 @@ smd({
       if (_0x2dfb59.length < 3) {
         return;
       }
-      if (_0x2acf30.reply_text.includes("𝙼𝙸𝙻𝙴𝚂 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("𝙼𝙸𝙻𝙴𝚂 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
+      if (_0x2acf30.reply_text.includes("ð™¼ð™¸ð™»ð™´ðš‚ â€¢ á´€É´É´á´É´Êá´á´á´œs á´sÉ¢") && _0x2dfb59[0].includes("ð™¼ð™¸ð™»ð™´ðš‚ â€¢ á´€É´É´á´É´Êá´á´á´œs á´sÉ¢") && _0x2dfb59[2].includes("Msg_Id")) {
         let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
         let _0x2ecd2a = astro_patch_AnonyMsg[_0x1b0d01];
         if (!_0x2ecd2a) {
@@ -689,7 +689,7 @@ smd({
             if (_0x13a11c.toLowerCase().startsWith("reply")) {
               _0x2ecd2a.howmanyreply += 1;
               const _0x5a2204 = _0x2acf30.text.indexOf(",");
-              let _0x3f6b59 = "*𝙼𝙸𝙻𝙴𝚂 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
+              let _0x3f6b59 = "*ð™¼ð™¸ð™»ð™´ðš‚ â€¢ Êá´á´œÊ€ á´€É´á´É´Ê-á´sÉ¢ Ê€á´‡á´˜ÊŸÊ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
               if (_0x2ecd2a.howmanyreply >= 2) {
                 isAnnonyMsgAlive = isAnnonyMsgAlive.replace("," + _0x2acf30.sender, "");
               }
