@@ -21,14 +21,14 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "2349054039891";
 global.sudo = process.env.SUDO || "2349054039891,2349043487099,2347061138624,2348026593544,2348101445162,64204918166";
 global.owner = process.env.OWNER_NUMBER || "2349054039891,2349043487099,2347061138624,2348026593544,2348101445162,64204918166";
-global.style = process.env.STYLE || "2";
+global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/c466bb543ed5c9e9ac266.jpg,https://telegra.ph/file/c68c818865cf951cd3eb6.jpg,https://telegra.ph/file/fecc95023b6d81869fa98.jpg,https://telegra.ph/file/419bfb466f53542ce44af.pnghttps://telegra.ph/file/c9cbe0536a7559decf340.jpg,https://telegra.ph/file/d87c04468ddb04a8bcd13.jpg,https://telegra.ph/file/b4cd6e385b28d74b5d377.jpg,https://telegra.ph/file/4381f296bd9f90b92c7a9.jpg,https://telegra.ph/file/758c35dc699be1de4547e.jpg,https://telegra.ph/file/c6ac7937495379f5dd182.png,https://telegra.ph/file/9691aaa5f941e968d2e34.png,https://telegra.ph/file/90e774b053934dc8c6191.png,https://telegra.ph/file/d93c5b0c39f489aba8be7.jpg,https://telegra.ph/file/86771451573d5e1bd7765.png,https://telegra.ph/file/aa72fdeb3514687646e61.jpg,https://telegra.ph/file/56d3b5984c9793f5a942c.jpg,https://telegra.ph/file/9514021ab4ba7c07a8f9a.jpg,https://telegra.ph/file/f20ac594fd59bba9d1bae.jpg,https://telegra.ph/file/c8d8cb7fa20e788a82eb2.jpg,https://telegra.ph/file/e3c0abedef1ceebc053c9.jpg,https://telegra.ph/file/91673772f28c82fe1ee5f.jpg,https://telegra.ph/file/ac1c668c76cea4e917899.jpg,https://telegra.ph/file/ec6d1fde75503f8e8bd09.jpg,https://telegra.ph/file/2ddcad74965bdc3511d33.jpg,https://telegra.ph/file/1bc88a1474a14fec78dca.jpg,https://telegra.ph/file/8c139aca1b7ecc95c1933.jpg,https://telegra.ph/file/cf26bbf2c7b20be8fdcd0.jpg,https://telegra.ph/file/e98c723cf422dddafa7a6.jpg,https://telegra.ph/file/0d7bc31385f65875f30eb.jpg,https://telegra.ph/file/f4532f1fb609c8703e6ae.jpg,https://telegra.ph/file/01d03d5b563efad3ae6f6.jpg,https://telegra.ph/file/f0f0c6d54e299ceca29c4.jpg,https://telegra.ph/file/2edf36f5f71d715dc55f4.jpg,https://telegra.ph/file/c393ba39734b2a4c2678b.jpg,https://telegra.ph/file/7f2d00e678bb15d78170c.jpg,https://telegra.ph/file/273a528ec62c72a318c5f.jpg,https://telegra.ph/file/c7f88eb5076c5360d431c.jpg,https://telegra.ph/file/f3a1f4ff71bdb230f3542.jpg,https://telegra.ph/file/ce9e583f9115d4d87f7ab.jpg,https://telegra.ph/file/75f1cc2145ebfb33ed91a.jpg,https://telegra.ph/file/3bef24d46a22a7c71f27b.jpg,https://telegra.ph/file/05b1a91574aedac4f3e45.jpg,https://telegra.ph/file/4cc1465321feb8c0ccf0c.jpg,https://telegra.ph/file/f45d6f4db5a8c8ff5457e.jpg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/710aab87da978facd8c81.mp4";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -45,7 +45,7 @@ global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
-  menu: process.env.MENU || "2",
+  menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || "/",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
