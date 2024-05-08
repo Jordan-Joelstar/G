@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `🅂🆄🄿🄿🄾🆁🅃 🄶🆁🄾🆄🄿\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/KtwIw190SAAGWP2UJdPiDQ\n\n`;
+    const SupportMsg = `🅂🆄🄿🄿🄾🆁🅃 🄶🆁🄾🆄🄿\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/Fwjyd4ic5d9JHfVKIBQlAi\n\n`;
 
     const contextInfo = {
       forwardingScore: 999,
