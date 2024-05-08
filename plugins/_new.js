@@ -15,7 +15,7 @@ let {
   {
     pattern: "channel",
     desc: "Our official channel link",
-    react: "💬",
+    react: "🌝",
     category: "user",
     filename: __filename,
   },
@@ -34,12 +34,12 @@ smd(
   {
     pattern: "support",
     desc: "Our official group link",
-    react: "💬️",
+    react: "🌚",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `🅂🆄🄿🄿🄾🆁🅃 🄶🆁🄾🆄🄿\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/KtwIw190SAAGWP2UJdPiDQ\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `🅂🆄🄿🄿🄾🆁🅃 🄶🆁🄾🆄🄿\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/KtwIw190SAAGWP2UJdPiDQ\n\n`;
 
     const contextInfo = {
       forwardingScore: 999,
