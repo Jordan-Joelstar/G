@@ -232,7 +232,7 @@ smd({
 });
 smd(
   {
-    pattern: "astame",
+    pattern: "Jordan",
     desc: "Shows system status with different designs.",
     category: "general",
     filename: __filename,
@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+            "https://telegra.ph/file/702a30a528397a030acb1.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -261,13 +261,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds${quoteText}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
+          const captionText = ` ${quoteText}\n\n`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/lIo3cM2.jpeg",
+            "https://telegra.ph/file/08a8628823072881e3525.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
+          const captionText = `\n${fact.result.fact}\n\n`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://telegra.ph/file/5160e6c4bdc9f2721dc19.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
+          const captionText = `\n${line.result}`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
