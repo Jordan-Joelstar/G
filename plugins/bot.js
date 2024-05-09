@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: ASTROPEDA\n⚠️============================⚠️");
+    log("\nтЪая╕П===========================тЪая╕П \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! ЁЯЪл\n \n Regards: ASTROPEDA\nтЪая╕П============================тЪая╕П");
     global.showUpdate = true;
   }
 }
@@ -232,7 +232,7 @@ smd({
 });
 smd(
   {
-    pattern: "alive",
+    pattern: "astame",
     desc: "Shows system status with different designs.",
     category: "general",
     filename: __filename,
@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds${quoteText}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,7 +283,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `с┤Аsс┤Ыс┤А с┤Нс┤Е ЁЭЯ╕.5.ЁЭЯ╢ с┤Шс┤Ас┤Ыс┤Д╩Ь\n\n*╩Ас┤Зsс┤Шс┤П╔┤sс┤З ╩Ас┤Ас┤Ыс┤З:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nс┤Аsс┤Ыс┤А с┤Нс┤Е`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -793,7 +793,7 @@ smd({
       id: "bot_" + _0x50364b.user
     }));
     if (!_0x1f0ea7) {
-      return await _0x50364b.send("*_Auto_Bio currently *" + (bio.autobio == "false" ? "Disabled_*\n\nUse *" + prefix + "autobio on* to turn on auto_bio!" : "Enabled_*\n*Currently Set:* " + (bio.autobio == "true" || bio.autobio == "on" ? "@line, ⏰Time: @time 🚀@bot" : bio.autobio) + "\n\nUse *" + prefix + "autobio off* to turn off auto_bio!") + "\n  \n  Also update status: *" + prefix + "autobio @bot(botName) @time @date @line(pickupline) @quote*\n  ");
+      return await _0x50364b.send("*_Auto_Bio currently *" + (bio.autobio == "false" ? "Disabled_*\n\nUse *" + prefix + "autobio on* to turn on auto_bio!" : "Enabled_*\n*Currently Set:* " + (bio.autobio == "true" || bio.autobio == "on" ? "@line, тП░Time: @time ЁЯЪА@bot" : bio.autobio) + "\n\nUse *" + prefix + "autobio off* to turn off auto_bio!") + "\n  \n  Also update status: *" + prefix + "autobio @bot(botName) @time @date @line(pickupline) @quote*\n  ");
     }
     let _0x3d9e60 = _0x1f0ea7.toLowerCase().split(" ")[0].trim();
     if (_0x3d9e60 === "off" || _0x3d9e60 === "disable" || _0x3d9e60 === "deact") {
@@ -816,7 +816,7 @@ smd({
       }, {
         autobio: _0x1f0ea7
       });
-      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Miles Auto Bio, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
+      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Miles Auto Bio, тП░Time: @time ЁЯЪА@bot" : _0x1f0ea7);
       await _0x50364b.bot.updateProfileStatus(_0x347b23);
       return await _0x50364b.reply("*Auto_Bio Succesfully enabled*" + ("\n  *Bio set:* " + _0x347b23 + "  \n  \n  *whatsapp bio auto-updates every minute*\n  "));
     }
@@ -837,7 +837,7 @@ smd({
       abioJob = cron.schedule("*/1.5 * * * *", async () => {
         try {
           var _0x4b4b3b = "`";
-          let _0x34c0a6 = bio.autobio == "true" || bio.autobio == "on" ? "Miles Auto Bio, ⏰Time: @time 🚀@bot" : bio.autobio;
+          let _0x34c0a6 = bio.autobio == "true" || bio.autobio == "on" ? "Miles Auto Bio, тП░Time: @time ЁЯЪА@bot" : bio.autobio;
           var _0x374085 = await getContent(_0x3d393a, _0x34c0a6);
           if (_0x374085 && _0x374085 !== "false") {
             await _0x3d393a.bot.updateProfileStatus(_0x374085);
@@ -1461,11 +1461,11 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 });
                 for (const _0x46a41c in _0x5e5013) {
                   if (_0x13060c == _0x46a41c.toLowerCase()) {
-                    _0x18a446 = "┌───〈 *" + _0x46a41c.toLowerCase() + " menu*  〉───◆\n│╭─────────────···▸\n┴│▸\n";
+                    _0x18a446 = "тФМтФАтФАтФАтМй *" + _0x46a41c.toLowerCase() + " menu*  тМктФАтФАтФАтЧЖ\nтФВтХнтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА┬╖┬╖┬╖тЦ╕\nтФ┤тФВтЦ╕\n";
                     for (const _0x2e57d3 of _0x5e5013[_0x46a41c]) {
-                      _0x18a446 += "⬡│▸ " + _0x2e57d3 + "\n";
+                      _0x18a446 += "тмбтФВтЦ╕ " + _0x2e57d3 + "\n";
                     }
-                    _0x18a446 += "┬│▸\n│╰────────────···▸▸\n└───────────────···▸";
+                    _0x18a446 += "тФмтФВтЦ╕\nтФВтХ░тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА┬╖┬╖┬╖тЦ╕тЦ╕\nтФФтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА┬╖┬╖┬╖тЦ╕";
                     break;
                   }
                 }
@@ -1710,7 +1710,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
           }
           if (_0x3d78c6 === "connecting") {
-            print("RENT BOT :  ℹ️ Connecting to WhatsApp...");
+            print("RENT BOT :  тД╣я╕П Connecting to WhatsApp...");
           }
           if (_0x3d78c6 === "open") {
             delete showQr[_0x1e0584];
@@ -1723,7 +1723,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n❒ *[MILES-SHARING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "тФМтФАтФАтФАтнУ\nтЭТ *[MILES-SHARING-ON]*\nтЭТ _Your Session Id, Dont provide!_\nтФФтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтнУ\n";
                   await _0x1a9455.sendMessage(_0x459047, {
                     text: "Miles;;;" + _0x181a7a
                   });
@@ -1745,9 +1745,9 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 console.log(_0x5ddcb4);
               }
             }
-            print("RENT BOT :  ✅ Whatsapp Login Successful!");
+            print("RENT BOT :  тЬЕ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n❒  [MILES SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "тФМтФАтФАтФАтнУ\nтЭТ  [MILES SHARING RUNNING] \nтЭТ  Prefix : [ " + (prefix || "null") + " ]\nтЭТ  Mode : " + Config.WORKTYPE + "\nтЭТ  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
@@ -2498,7 +2498,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
         });
         return fs.promises.unlink(_0x317b4a);
       };
-      _0x1a9455.fakeMessage = async (_0x552a47 = "order", _0x3ae380 = {}, _0x5959c0 = "➬ Suhail SER", _0x433733 = {}) => {
+      _0x1a9455.fakeMessage = async (_0x552a47 = "order", _0x3ae380 = {}, _0x5959c0 = "тЮм Suhail SER", _0x433733 = {}) => {
         const _0x5d844f = [777, 0, 100, 500, 1000, 999, 2021];
         let _0x35ddd7 = {
           id: "BAFDGM539SUHAILMDOFFICIAL",
@@ -2518,7 +2518,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               itemCount: _0x5d844f[Math.floor(Math.random() * 8)],
               status: 1,
               surface: 1,
-              message: "❏ " + _0x5959c0,
+              message: "тЭП " + _0x5959c0,
               orderTitle: "live",
               sellerJid: "2349054039891@s.whatsapp.net"
             }
